@@ -58,8 +58,8 @@ Write-Host "---------------------------------------------------"
 Write-Host "---------------------------------------------------"
 
 if ($LASTEXITCODE -ne 0) {
-    Write-Host "... sector allocation check failed" -ForegroundColor Red
-    Exit -1
+    #Write-Host "... sector allocation check failed" -ForegroundColor Red
+    #Exit -1
 }
 
 Write-Host "... sector allocation check successful" -ForegroundColor Green
